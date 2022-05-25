@@ -1,0 +1,81 @@
+2.8.0
+Mounted at /content/drive
+WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+<function mount at 0x7f7253105680>
+la taile des données y_train (60000, 784)
+la taile des données y_train apres (60000, 28, 28)
+------------P-box One round for Fashion dataset----------------
+P-box One round CML evaluation
+1875/1875 [==============================] - 19s 4ms/step - loss: 0.0014 - r_square: 1.0000 - mean_squared_error: 0.0015
+Prediction
+P-box One round GCBPM evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.0480 - r_square: 1.0000 - mean_squared_error: 0.0725
+Prediction
+P-box One round Discrete chaos evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.1867 - r_square: 1.0000 - mean_squared_error: 0.3265
+Prediction
+P-box One round Continuous chaos evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 2.4533 - r_square: 0.9782 - mean_squared_error: 175.4176
+Prediction
+------------P-box 8 rounds for Fashion dataset----------------
+P-box 8 rounds CML evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.0530 - r_square: 1.0000 - mean_squared_error: 0.1907
+Prediction
+P-box 8 rounds GCBPM evaluation
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.0769 - r_square: 0.9994 - mean_squared_error: 4.6592
+Prediction
+P-box 8 rounds Discrete chaos evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.0270 - r_square: 0.9993 - mean_squared_error: 5.8473
+Prediction
+P-box 8 rounds Continuous chaos evaluation
+1875/1875 [==============================] - 9s 5ms/step - loss: 0.1995 - r_square: 0.9994 - mean_squared_error: 5.0487
+Prediction
+------------P-box 16 rounds for Fashion dataset----------------
+P-box 16 rounds CML evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.0714 - r_square: 0.9991 - mean_squared_error: 7.6776
+Prediction
+P-box 16 rounds GCBPM evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.5570 - r_square: 0.9994 - mean_squared_error: 4.9375
+Prediction
+P-box 16 rounds Discrete chaos evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 0.0992 - r_square: 0.7599 - mean_squared_error: 1940.4126
+Prediction
+P-box 16 rounds Continuous chaos evaluation
+1875/1875 [==============================] - 9s 4ms/step - loss: 8.3224 - r_square: 0.9223 - mean_squared_error: 623.6429
+Prediction
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+32768/29515 [=================================] - 0s 0us/step
+40960/29515 [=========================================] - 0s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
+26427392/26421880 [==============================] - 0s 0us/step
+26435584/26421880 [==============================] - 0s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-labels-idx1-ubyte.gz
+16384/5148 [===============================================================================================] - 0s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
+4423680/4422102 [==============================] - 0s 0us/step
+4431872/4422102 [==============================] - 0s 0us/step
+1875/1875 - 3s - loss: 0.0615 - accuracy: 0.9832 - 3s/epoch - 2ms/step
+P-box One round CML mesureament: 0.9832333326339722
+1875/1875 - 3s - loss: 0.0616 - accuracy: 0.9833 - 3s/epoch - 2ms/step
+P-box One round GCBPM mesureament: 0.9832500219345093
+1875/1875 - 3s - loss: 0.0618 - accuracy: 0.9829 - 3s/epoch - 2ms/step
+P-box One round Discrete chaos mesureament:: 0.9829333424568176
+1875/1875 - 3s - loss: 0.2501 - accuracy: 0.9370 - 3s/epoch - 2ms/step
+P-box One round Continuous chaos mesureament:: 0.9369666576385498
+1875/1875 - 3s - loss: 0.0622 - accuracy: 0.9827 - 3s/epoch - 2ms/step
+P-box 8 rounds CML mesureament: 0.9826833605766296
+1875/1875 - 3s - loss: 0.0971 - accuracy: 0.9659 - 3s/epoch - 1ms/step
+P-box 8 rounds GCBPM mesureament: 0.9659000039100647
+1875/1875 - 3s - loss: 0.1063 - accuracy: 0.9614 - 3s/epoch - 2ms/step
+P-box 8 rounds Discrete chaos mesureament:: 0.9614166617393494
+1875/1875 - 3s - loss: 0.0707 - accuracy: 0.9781 - 3s/epoch - 2ms/step
+P-box 8 rounds Continuous chaos mesureament:: 0.9781333208084106
+1875/1875 - 3s - loss: 0.0937 - accuracy: 0.9663 - 3s/epoch - 2ms/step
+P-box 16 rounds CML mesureament:: 0.9663000106811523
+1875/1875 - 3s - loss: 0.0859 - accuracy: 0.9708 - 3s/epoch - 2ms/step
+P-box 16 rounds GCBPM mesureament:: 0.97079998254776
+1875/1875 - 3s - loss: 23.1014 - accuracy: 0.3117 - 3s/epoch - 2ms/step
+P-box 16 rounds Discrete chaos mesureament:: 0.31166666746139526
+1875/1875 - 3s - loss: 0.3663 - accuracy: 0.8880 - 3s/epoch - 2ms/step
+P-box 16 rounds Continuous chaos mesureament:: 0.8879833221435547
