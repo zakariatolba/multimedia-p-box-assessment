@@ -1,6 +1,9 @@
 Automated Deep Learning BLACK-BOX Attack for Multimedia P-BOX Security Assessment
+
 Note: The code in this respository is from our paper research: https://ieeexplore.ieee.org/document/9875256
+
 If you use/modify the code in this repository for your own research and publish it, please cite the paper:
+
 Z. Tolba, M. Derdour, M. A. Ferrag, S. M. Muyeen and M. Benbouzid, "Automated Deep Learning BLACK-BOX Attack for Multimedia P-BOX Security Assessment," in IEEE Access, vol. 10, pp. 94019-94039, 2022, doi: 10.1109/ACCESS.2022.3204175.
 
 Abstract:
